@@ -34,3 +34,14 @@
 示例 5：<br/>输入：nums1 = [2], nums2 = []<br/>输出：2.00000  
 ### 链接：https://leetcode-cn.com/problems/median-of-two-sorted-arrays
 ### 代码：LeetCode/algorithm/algorithm_0001_0100/findMedianSortedArrays/FindMedianSortedArrays.py
+
+## 5. 最长回文子串
+### 给你一个字符串 s，找到 s 中最长的回文子串。
+示例 1：<br/>输入：s = "babad"<br/>输出："bab"<br/>解释："aba" 同样是符合题意的答案。<br/>    
+示例 2：<br/>输入：s = "cbbd"<br/>输出："bb"<br/>    
+示例 3：<br/>输入：s = "a"<br/>输出："a"<br/>    
+示例 4：<br/>输入：s = "ac"<br/>输出："a" 
+### 链接：https://leetcode-cn.com/problems/longest-palindromic-substring
+### 代码：LeetCode/algorithm/algorithm_0001_0100/longestPalindrome/LongestPalindrome.py
+
+
