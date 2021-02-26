@@ -44,4 +44,27 @@
 ### 链接：https://leetcode-cn.com/problems/longest-palindromic-substring
 ### 代码：LeetCode/algorithm/algorithm_0001_0100/longestPalindrome/LongestPalindrome.py
 
+## 6. Z 字形变换
+### 将一个给定字符串 s 根据给定的行数 numRows ，以从上往下、从左到右进行 Z 字形排列。
+比如输入字符串为 "PAYPALISHIRING" 行数为 3 时，排列如下：<br/>
+P&nbsp;&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;H&nbsp;&nbsp;&nbsp;N<br/>A&nbsp;P&nbsp;L&nbsp;S&nbsp;I&nbsp;I&nbsp;G<br/>Y&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;R<br/>
+之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如："PAHNAPLSIIGYIR"。<br/>请你实现这个将字符串进行指定行数变换的函数：<br/>string convert(string s, int numRows);<br/>
+示例 1：<br/>输入：s = "PAYPALISHIRING", numRows = 3<br/>输出："PAHNAPLSIIGYIR"<br/>
+示例 2：<br/>输入：s = "PAYPALISHIRING", numRows = 4<br/>输出："PINALSIGYAHRPI"<br/>解释：<br/>P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;N<br/>A&nbsp;&nbsp;&nbsp;L&nbsp;S&nbsp;&nbsp;&nbsp;I&nbsp;G<br/>Y&nbsp;A&nbsp;&nbsp;&nbsp;H&nbsp;R<br/>P&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I<br/>
+示例 3：<br/>输入：s = "A", numRows = 1<br/>输出："A"<br/>
+提示：<br/>1 <= s.length <= 1000<br/>s 由英文字母（小写和大写）、',' 和 '.' 组成<br/>1 <= numRows <= 1000<br/>
+### 链接：https://leetcode-cn.com/problems/zigzag-conversion
+### 代码：LeetCode/algorithm/algorithm_0001_0100/convertToZ/ConvertToZ.py
+
+## 7. 整数反转
+### 给你一个 32 位的有符号整数 x ，返回 x 中每位上的数字反转后的结果。
+### 如果反转后整数超过 32 位的有符号整数的范围 [−2^31,  2^31 − 1] ，就返回 0。
+假设环境不允许存储 64 位整数（有符号或无符号）。
+示例 1：<br/>输入：x = 123<br/>输出：321<br/>
+示例 2：<br/>输入：x = -123<br/>输出：-321<br/>
+示例 3：<br/>输入：x = 120<br/>输出：21<br/>
+示例 4：<br/>输入：x = 0<br/>输出：0<br/>
+### 链接：https://leetcode-cn.com/problems/reverse-integer
+### 代码：
+
 
